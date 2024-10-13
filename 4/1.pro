@@ -16,3 +16,5 @@
 	calculatesum_divisors_till(Sum, NumberToDivide, Till) :- Till > 0, 
                 Rem is NumberToDivide mod Till, Rem > 0, Ts is Till - 1, 
                 calculatesum_divisors_till(Sum, NumberToDivide, Ts).
+
+  % perfect_number(X),X<10000
