@@ -10,3 +10,5 @@ sort_b([], []).
 	%% Склеиваем 2 списка
 	append([], M, M).
 	append([L|Left], Right, [L|Res]) :- append(Left, Right, Res).
+
+% sort([-3, 1, 4, 1, -5, 9, 2, 6], Sorted).
