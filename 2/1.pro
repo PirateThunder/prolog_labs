@@ -50,3 +50,14 @@ clauses
 
 goal
 	run.
+
+% parent
+% jake
+% jane
+% sex
+% jake
+% male
+% sex
+% jane
+% female
+% save
