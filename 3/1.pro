@@ -59,3 +59,6 @@ clauses
     positive("taste", "is specific"),
     positive("tastes", "are diverse"),
     positive("opportunity", "to win BMW"),!.
+
+% y y y n y n y
+% y y y y
