@@ -14,3 +14,5 @@ longest_element_position([H|T], Pos, Len) :-
     %Это заголовок второго клауза предиката
 longest_element_position([H|_], 1, Len) :- length(H, Len).
 longest_element_position([], _, _) :- fail. % Добавляем базовый случай для пустого списка.
+
+% longest_element_position([[1, 2], [a, b, c], [true, false, true, false]], Pos, Len).
