@@ -12,3 +12,5 @@
 	%%  1-й - элемент, 2-й - список, 3-й - список без элементов
 	member_list_exclude(X, [X|L], L).
 	member_list_exclude(X, [Y|L], [Y|Ls]) :- member_list_exclude(X, L, Ls).
+
+ % perm([1,2,3],X)
