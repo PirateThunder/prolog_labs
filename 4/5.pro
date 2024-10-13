@@ -14,3 +14,5 @@ sort_tree([], nil).
 	tree_list(nil, []).
 	tree_list(tree(X, L, R), List) :- tree_list(L, ListL), tree_list(R, ListR),
 	    append_list(ListL, [X|ListR], List).
+
+% sort([-3, 1, 4, 1, 11,-10,5], Sorted).
