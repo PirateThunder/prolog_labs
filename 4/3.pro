@@ -8,4 +8,5 @@ member(X, [X|_]).
 	%%     то есть 1-й элемент исходного списка не содержится в сочетании
 	comb([_|List], Tail) :- comb(List, Tail).
 
- % comb([1,2,3],C),write(C),nl,fail
+% comb([1,2,3],C),write(C),nl,fail
+% comb([5,7,8,11],C),write(C),nl,fail
