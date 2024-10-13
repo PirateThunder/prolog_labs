@@ -49,3 +49,5 @@ unique([]):-!.
 unique([Head|Tail]):-
    member(Head, Tail), !, fail;
    unique(Tail).
+
+% solve(X),X=[passenger(artem,_,_,_),passenger(arsen,_,_,_),passenger(sergei,_,_,_),passenger(misha,_,_,_)].
