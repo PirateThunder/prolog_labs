@@ -13,4 +13,5 @@
 	member_list_exclude(X, [X|L], L).
 	member_list_exclude(X, [Y|L], [Y|Ls]) :- member_list_exclude(X, L, Ls).
 
- % perm([1,2,3],X)
+% perm([1,2,3],X)
+% perm([5, 7, 11,9], X)
