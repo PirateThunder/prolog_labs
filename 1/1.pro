@@ -27,3 +27,7 @@ family(father, child).
 family(grandmother, child).
 family(child, grandmother).
 family(grandfather, grandmother).
+
+% classmates(brothers, sisters)
+% relationship(sisters, offspring)
+% family(grandfather, grandmother)
